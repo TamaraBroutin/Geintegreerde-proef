@@ -1,0 +1,8 @@
+version: '3'
+services:
+ vivesgo-service:
+  build: ./vivesgo
+  volumes:
+  - ./vivesgo:/usr/src/app
+  ports:
+  - "5002:80"
